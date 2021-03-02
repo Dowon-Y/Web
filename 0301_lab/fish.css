@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+header {
+    background-image: url(images/fish3.jpg);
+    background-repeat: no-repeat;
+    height: 130px;
+    margin-top: 0;
+    padding: 10px;
+    color: white;
+    font-size: 150%;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    font-size: 1.5em;
+    text-align: right;
+    margin-top:0;
+    padding-right: 10%;
+}
+
+nav li { display: inline; }
+
+/* Remove underline */
+nav a { text-decoration: none; 
+        padding-right: 10px; } 
+
+nav a:link {color:#293D89;}
+nav a:visited {color: #000066;}
+nav a:hover {color:lightskyblue;}
+
+.topimage {background-image: url(images/underwater.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 25em;
+}
+
+aside { 
+    float: right;
+    width: 200px;
+    background-color: lightskyblue;
+    padding: 20px;
+    border-radius: 40px;    
+    margin-left: 30px;
+}
+
+#floatright {
+    float:right;
+    margin:10px;
+    border-radius: 40px;
+}
+
+footer {
+    font-size: 70%;
+    text-align: center;
+    clear: right;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
